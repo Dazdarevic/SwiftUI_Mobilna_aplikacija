@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB39ABB2F1A8AC4410DF3EF /* Pods_MuslimApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E7EAE3CBAD87CCD26276DF /* Pods_MuslimApp.framework */; };
+		F1380AE22C0E563800B779CA /* ZajednickeDove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1380AE12C0E563800B779CA /* ZajednickeDove.swift */; };
+		F1380AE42C0E573400B779CA /* PrikazZajednickeDove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1380AE32C0E573400B779CA /* PrikazZajednickeDove.swift */; };
+		F1380AE62C0E693A00B779CA /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1380AE52C0E693A00B779CA /* Radio.swift */; };
+		F13DC61D2C0D10EE00F76F2A /* ImageTitleRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DC61C2C0D10EE00F76F2A /* ImageTitleRowCell.swift */; };
+		F13DC61F2C0D112100F76F2A /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DC61E2C0D112100F76F2A /* ImageLoaderView.swift */; };
+		F13DC6222C0D118000F76F2A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F13DC6212C0D118000F76F2A /* SDWebImageSwiftUI */; };
+		F13DC6272C0D11DB00F76F2A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DC6262C0D11DB00F76F2A /* Constants.swift */; };
+		F146E5062C0C933D008EFBB2 /* KuranPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F146E5052C0C933D008EFBB2 /* KuranPro.swift */; };
+		F146E5082C0C9533008EFBB2 /* ChapterVerseBosArabic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F146E5072C0C9533008EFBB2 /* ChapterVerseBosArabic.swift */; };
+		F146E50A2C0C9715008EFBB2 /* PrikazSurePro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F146E5092C0C9715008EFBB2 /* PrikazSurePro.swift */; };
+		F15226342C0DBB3600CEEE66 /* DovaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15226332C0DBB3600CEEE66 /* DovaView.swift */; };
+		F15226362C0DBB6400CEEE66 /* SiraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15226352C0DBB6400CEEE66 /* SiraView.swift */; };
+		F15226382C0DBB7500CEEE66 /* PorukaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15226372C0DBB7500CEEE66 /* PorukaView.swift */; };
+		F152263A2C0DBC2900CEEE66 /* Hifz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15226392C0DBC2900CEEE66 /* Hifz.swift */; };
+		F152263C2C0DF7EE00CEEE66 /* Zekat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152263B2C0DF7EE00CEEE66 /* Zekat.swift */; };
+		F15226402C0DF9EA00CEEE66 /* AllahovoIme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152263F2C0DF9EA00CEEE66 /* AllahovoIme.swift */; };
+		F15226422C0DFC8800CEEE66 /* ListaAllahovihImena.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15226412C0DFC8800CEEE66 /* ListaAllahovihImena.swift */; };
+		F152264B2C0E141A00CEEE66 /* imena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F152264A2C0E141A00CEEE66 /* imena.mp3 */; };
+		F152264F2C0E189100CEEE66 /* AllahovaLijepaImena.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152264E2C0E189100CEEE66 /* AllahovaLijepaImena.swift */; };
+		F15226512C0E1DC700CEEE66 /* Tesbih.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15226502C0E1DC700CEEE66 /* Tesbih.swift */; };
+		F15393BB2BECF30000252A0A /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393BA2BECF30000252A0A /* Welcome.swift */; };
+		F15393BD2BECFD3300252A0A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393BC2BECFD3300252A0A /* Login.swift */; };
+		F15393BF2BECFD4900252A0A /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393BE2BECFD4900252A0A /* Register.swift */; };
+		F15393C12C078C4A00252A0A /* UrlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393C02C078C4A00252A0A /* UrlHelper.swift */; };
+		F15393C52C079A9A00252A0A /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393C42C079A9A00252A0A /* LoginInfo.swift */; };
+		F15393C72C08AD3500252A0A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393C62C08AD3500252A0A /* Message.swift */; };
+		F15393C92C0A33CC00252A0A /* Korisnik.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393C82C0A33CC00252A0A /* Korisnik.swift */; };
+		F15393CB2C0A62AD00252A0A /* DefaultScreenProUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393CA2C0A62AD00252A0A /* DefaultScreenProUser.swift */; };
+		F15393CD2C0A62C600252A0A /* DefaultScreenUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393CC2C0A62C600252A0A /* DefaultScreenUser.swift */; };
+		F15393CF2C0A64D200252A0A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15393CE2C0A64D200252A0A /* UserSettings.swift */; };
+		F16F6A2B2C0BAE7E00C56FF5 /* HomeProUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F6A2A2C0BAE7E00C56FF5 /* HomeProUser.swift */; };
+		F16F6A2E2C0BAEA100C56FF5 /* HomeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F6A2D2C0BAEA100C56FF5 /* HomeUser.swift */; };
+		F16F6A322C0BB0C800C56FF5 /* Kuran.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F6A312C0BB0C800C56FF5 /* Kuran.swift */; };
+		F16F6A342C0BB1A600C56FF5 /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F6A332C0BB1A600C56FF5 /* MyProfile.swift */; };
+		F16F6A372C0BB40200C56FF5 /* ListaSura.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F6A362C0BB40200C56FF5 /* ListaSura.swift */; };
+		F16F6A392C0BBF9200C56FF5 /* Sura.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F6A382C0BBF9200C56FF5 /* Sura.swift */; };
+		F16F6A3D2C0BC9C900C56FF5 /* PrikazSure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F6A3C2C0BC9C900C56FF5 /* PrikazSure.swift */; };
+		F1710B3B2C0EDBF50067F6BC /* DoveUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1710B3A2C0EDBF50067F6BC /* DoveUser.swift */; };
+		F1710B3D2C0EDCE10067F6BC /* Dova.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1710B3C2C0EDCE10067F6BC /* Dova.swift */; };
+		F1710B3F2C0EFFE80067F6BC /* Slika.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1710B3E2C0EFFE80067F6BC /* Slika.swift */; };
+		F1710B412C0F20220067F6BC /* MojeDove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1710B402C0F20220067F6BC /* MojeDove.swift */; };
+		F1710B432C0F31F70067F6BC /* DodajDovu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1710B422C0F31F70067F6BC /* DodajDovu.swift */; };
+		F1710B452C0F37280067F6BC /* PrikaziMojeDove.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1710B442C0F37280067F6BC /* PrikaziMojeDove.swift */; };
+		F1710B492C0F464E0067F6BC /* MojeSureUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1710B482C0F464E0067F6BC /* MojeSureUD.swift */; };
+		F17E389B2C101EB6009F9E11 /* Tekstovi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17E389A2C101EB6009F9E11 /* Tekstovi.swift */; };
+		F1E2F2622C0CE61200DA3551 /* VaktijaComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2F2612C0CE61200DA3551 /* VaktijaComponent.swift */; };
+		F1E2F2642C0CE9FA00DA3551 /* VaktijaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E2F2632C0CE9FA00DA3551 /* VaktijaData.swift */; };
+		F1F618672BEBDDF7007BA712 /* MuslimAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F618662BEBDDF7007BA712 /* MuslimAppApp.swift */; };
+		F1F618692BEBDDF7007BA712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F618682BEBDDF7007BA712 /* ContentView.swift */; };
+		F1F6186B2BEBDDF8007BA712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F6186A2BEBDDF8007BA712 /* Assets.xcassets */; };
+		F1F6186E2BEBDDF8007BA712 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F6186D2BEBDDF8007BA712 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0124C0AB8288433F1594831E /* Pods-MuslimApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuslimApp.debug.xcconfig"; path = "Target Support Files/Pods-MuslimApp/Pods-MuslimApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A3E7EAE3CBAD87CCD26276DF /* Pods_MuslimApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuslimApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1380AE12C0E563800B779CA /* ZajednickeDove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZajednickeDove.swift; sourceTree = "<group>"; };
+		F1380AE32C0E573400B779CA /* PrikazZajednickeDove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrikazZajednickeDove.swift; sourceTree = "<group>"; };
+		F1380AE52C0E693A00B779CA /* Radio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio.swift; sourceTree = "<group>"; };
+		F13DC61C2C0D10EE00F76F2A /* ImageTitleRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleRowCell.swift; sourceTree = "<group>"; };
+		F13DC61E2C0D112100F76F2A /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		F13DC6262C0D11DB00F76F2A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F146E5052C0C933D008EFBB2 /* KuranPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuranPro.swift; sourceTree = "<group>"; };
+		F146E5072C0C9533008EFBB2 /* ChapterVerseBosArabic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterVerseBosArabic.swift; sourceTree = "<group>"; };
+		F146E5092C0C9715008EFBB2 /* PrikazSurePro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrikazSurePro.swift; sourceTree = "<group>"; };
+		F15226332C0DBB3600CEEE66 /* DovaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DovaView.swift; sourceTree = "<group>"; };
+		F15226352C0DBB6400CEEE66 /* SiraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiraView.swift; sourceTree = "<group>"; };
+		F15226372C0DBB7500CEEE66 /* PorukaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorukaView.swift; sourceTree = "<group>"; };
+		F15226392C0DBC2900CEEE66 /* Hifz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hifz.swift; sourceTree = "<group>"; };
+		F152263B2C0DF7EE00CEEE66 /* Zekat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zekat.swift; sourceTree = "<group>"; };
+		F152263F2C0DF9EA00CEEE66 /* AllahovoIme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllahovoIme.swift; sourceTree = "<group>"; };
+		F15226412C0DFC8800CEEE66 /* ListaAllahovihImena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaAllahovihImena.swift; sourceTree = "<group>"; };
+		F152264A2C0E141A00CEEE66 /* imena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = imena.mp3; sourceTree = "<group>"; };
+		F152264E2C0E189100CEEE66 /* AllahovaLijepaImena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllahovaLijepaImena.swift; sourceTree = "<group>"; };
+		F15226502C0E1DC700CEEE66 /* Tesbih.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tesbih.swift; sourceTree = "<group>"; };
+		F15393BA2BECF30000252A0A /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		F15393BC2BECFD3300252A0A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F15393BE2BECFD4900252A0A /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		F15393C02C078C4A00252A0A /* UrlHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlHelper.swift; sourceTree = "<group>"; };
+		F15393C42C079A9A00252A0A /* LoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
+		F15393C62C08AD3500252A0A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F15393C82C0A33CC00252A0A /* Korisnik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Korisnik.swift; sourceTree = "<group>"; };
+		F15393CA2C0A62AD00252A0A /* DefaultScreenProUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenProUser.swift; sourceTree = "<group>"; };
+		F15393CC2C0A62C600252A0A /* DefaultScreenUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenUser.swift; sourceTree = "<group>"; };
+		F15393CE2C0A64D200252A0A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		F16F6A2A2C0BAE7E00C56FF5 /* HomeProUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProUser.swift; sourceTree = "<group>"; };
+		F16F6A2D2C0BAEA100C56FF5 /* HomeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUser.swift; sourceTree = "<group>"; };
+		F16F6A312C0BB0C800C56FF5 /* Kuran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuran.swift; sourceTree = "<group>"; };
+		F16F6A332C0BB1A600C56FF5 /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		F16F6A362C0BB40200C56FF5 /* ListaSura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaSura.swift; sourceTree = "<group>"; };
+		F16F6A382C0BBF9200C56FF5 /* Sura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sura.swift; sourceTree = "<group>"; };
+		F16F6A3C2C0BC9C900C56FF5 /* PrikazSure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrikazSure.swift; sourceTree = "<group>"; };
+		F1710B3A2C0EDBF50067F6BC /* DoveUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoveUser.swift; sourceTree = "<group>"; };
+		F1710B3C2C0EDCE10067F6BC /* Dova.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dova.swift; sourceTree = "<group>"; };
+		F1710B3E2C0EFFE80067F6BC /* Slika.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slika.swift; sourceTree = "<group>"; };
+		F1710B402C0F20220067F6BC /* MojeDove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojeDove.swift; sourceTree = "<group>"; };
+		F1710B422C0F31F70067F6BC /* DodajDovu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodajDovu.swift; sourceTree = "<group>"; };
+		F1710B442C0F37280067F6BC /* PrikaziMojeDove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrikaziMojeDove.swift; sourceTree = "<group>"; };
+		F1710B482C0F464E0067F6BC /* MojeSureUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojeSureUD.swift; sourceTree = "<group>"; };
+		F17E389A2C101EB6009F9E11 /* Tekstovi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tekstovi.swift; sourceTree = "<group>"; };
+		F1E2F2612C0CE61200DA3551 /* VaktijaComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaktijaComponent.swift; sourceTree = "<group>"; };
+		F1E2F2632C0CE9FA00DA3551 /* VaktijaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaktijaData.swift; sourceTree = "<group>"; };
+		F1F618632BEBDDF7007BA712 /* MuslimApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuslimApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F618662BEBDDF7007BA712 /* MuslimAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuslimAppApp.swift; sourceTree = "<group>"; };
+		F1F618682BEBDDF7007BA712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1F6186A2BEBDDF8007BA712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1F6186D2BEBDDF8007BA712 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE746189E73CCC3E8AABBBFF /* Pods-MuslimApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuslimApp.release.xcconfig"; path = "Target Support Files/Pods-MuslimApp/Pods-MuslimApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F618602BEBDDF7007BA712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13DC6222C0D118000F76F2A /* SDWebImageSwiftUI in Frameworks */,
+				4CB39ABB2F1A8AC4410DF3EF /* Pods_MuslimApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC995000C0B8A6035E6BB70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3E7EAE3CBAD87CCD26276DF /* Pods_MuslimApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FCA6E7E85F9AF2C116772A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0124C0AB8288433F1594831E /* Pods-MuslimApp.debug.xcconfig */,
+				FE746189E73CCC3E8AABBBFF /* Pods-MuslimApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F13DC6232C0D11BC00F76F2A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F13DC6262C0D11DB00F76F2A /* Constants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F15393B62BECF21B00252A0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F15393C42C079A9A00252A0A /* LoginInfo.swift */,
+				F15393C82C0A33CC00252A0A /* Korisnik.swift */,
+				F16F6A382C0BBF9200C56FF5 /* Sura.swift */,
+				F146E5072C0C9533008EFBB2 /* ChapterVerseBosArabic.swift */,
+				F1E2F2632C0CE9FA00DA3551 /* VaktijaData.swift */,
+				F152263F2C0DF9EA00CEEE66 /* AllahovoIme.swift */,
+				F1710B3C2C0EDCE10067F6BC /* Dova.swift */,
+				F1710B3E2C0EFFE80067F6BC /* Slika.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F15393B72BECF22900252A0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F16F6A2C2C0BAE9600C56FF5 /* User */,
+				F16F6A272C0BAE5D00C56FF5 /* ProUser */,
+				F15393BA2BECF30000252A0A /* Welcome.swift */,
+				F15393BC2BECFD3300252A0A /* Login.swift */,
+				F15393BE2BECFD4900252A0A /* Register.swift */,
+				F15393CA2C0A62AD00252A0A /* DefaultScreenProUser.swift */,
+				F15393CC2C0A62C600252A0A /* DefaultScreenUser.swift */,
+				F16F6A332C0BB1A600C56FF5 /* MyProfile.swift */,
+				F15226332C0DBB3600CEEE66 /* DovaView.swift */,
+				F15226352C0DBB6400CEEE66 /* SiraView.swift */,
+				F15226372C0DBB7500CEEE66 /* PorukaView.swift */,
+				F15226392C0DBC2900CEEE66 /* Hifz.swift */,
+				F152263B2C0DF7EE00CEEE66 /* Zekat.swift */,
+				F152264E2C0E189100CEEE66 /* AllahovaLijepaImena.swift */,
+				F15226502C0E1DC700CEEE66 /* Tesbih.swift */,
+				F1380AE52C0E693A00B779CA /* Radio.swift */,
+				F1380AE12C0E563800B779CA /* ZajednickeDove.swift */,
+				F1710B402C0F20220067F6BC /* MojeDove.swift */,
+				F1710B422C0F31F70067F6BC /* DodajDovu.swift */,
+				F17E389A2C101EB6009F9E11 /* Tekstovi.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F15393B82BECF23000252A0A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F15393CE2C0A64D200252A0A /* UserSettings.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F15393B92BECF25400252A0A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F15393C02C078C4A00252A0A /* UrlHelper.swift */,
+				F15393C62C08AD3500252A0A /* Message.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F16F6A272C0BAE5D00C56FF5 /* ProUser */ = {
+			isa = PBXGroup;
+			children = (
+				F16F6A2A2C0BAE7E00C56FF5 /* HomeProUser.swift */,
+				F146E5052C0C933D008EFBB2 /* KuranPro.swift */,
+				F1710B442C0F37280067F6BC /* PrikaziMojeDove.swift */,
+			);
+			path = ProUser;
+			sourceTree = "<group>";
+		};
+		F16F6A2C2C0BAE9600C56FF5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F16F6A2D2C0BAEA100C56FF5 /* HomeUser.swift */,
+				F16F6A312C0BB0C800C56FF5 /* Kuran.swift */,
+				F1710B3A2C0EDBF50067F6BC /* DoveUser.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		F16F6A352C0BB3EB00C56FF5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F16F6A362C0BB40200C56FF5 /* ListaSura.swift */,
+				F16F6A3C2C0BC9C900C56FF5 /* PrikazSure.swift */,
+				F146E5092C0C9715008EFBB2 /* PrikazSurePro.swift */,
+				F1E2F2612C0CE61200DA3551 /* VaktijaComponent.swift */,
+				F13DC61C2C0D10EE00F76F2A /* ImageTitleRowCell.swift */,
+				F13DC61E2C0D112100F76F2A /* ImageLoaderView.swift */,
+				F15226412C0DFC8800CEEE66 /* ListaAllahovihImena.swift */,
+				F1380AE32C0E573400B779CA /* PrikazZajednickeDove.swift */,
+				F1710B482C0F464E0067F6BC /* MojeSureUD.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F1F6185A2BEBDDF7007BA712 = {
+			isa = PBXGroup;
+			children = (
+				F13DC6232C0D11BC00F76F2A /* Shared */,
+				F16F6A352C0BB3EB00C56FF5 /* Components */,
+				F15393B92BECF25400252A0A /* Helpers */,
+				F15393B82BECF23000252A0A /* Data */,
+				F15393B72BECF22900252A0A /* View */,
+				F15393B62BECF21B00252A0A /* Models */,
+				F1F618652BEBDDF7007BA712 /* MuslimApp */,
+				F1F618642BEBDDF7007BA712 /* Products */,
+				9FCA6E7E85F9AF2C116772A4 /* Pods */,
+				0CC995000C0B8A6035E6BB70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1F618642BEBDDF7007BA712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1F618632BEBDDF7007BA712 /* MuslimApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F618652BEBDDF7007BA712 /* MuslimApp */ = {
+			isa = PBXGroup;
+			children = (
+				F152264A2C0E141A00CEEE66 /* imena.mp3 */,
+				F1F618662BEBDDF7007BA712 /* MuslimAppApp.swift */,
+				F1F618682BEBDDF7007BA712 /* ContentView.swift */,
+				F1F6186A2BEBDDF8007BA712 /* Assets.xcassets */,
+				F1F6186C2BEBDDF8007BA712 /* Preview Content */,
+			);
+			path = MuslimApp;
+			sourceTree = "<group>";
+		};
+		F1F6186C2BEBDDF8007BA712 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1F6186D2BEBDDF8007BA712 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1F618622BEBDDF7007BA712 /* MuslimApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F618712BEBDDF8007BA712 /* Build configuration list for PBXNativeTarget "MuslimApp" */;
+			buildPhases = (
+				4D0A310FF31565479412E0E2 /* [CP] Check Pods Manifest.lock */,
+				F1F6185F2BEBDDF7007BA712 /* Sources */,
+				F1F618602BEBDDF7007BA712 /* Frameworks */,
+				F1F618612BEBDDF7007BA712 /* Resources */,
+				32669CA5D1880D113110C241 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuslimApp;
+			packageProductDependencies = (
+				F13DC6212C0D118000F76F2A /* SDWebImageSwiftUI */,
+			);
+			productName = MuslimApp;
+			productReference = F1F618632BEBDDF7007BA712 /* MuslimApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F6185B2BEBDDF7007BA712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F1F618622BEBDDF7007BA712 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F1F6185E2BEBDDF7007BA712 /* Build configuration list for PBXProject "MuslimApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1F6185A2BEBDDF7007BA712;
+			packageReferences = (
+				F13DC6202C0D118000F76F2A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = F1F618642BEBDDF7007BA712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F618622BEBDDF7007BA712 /* MuslimApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1F618612BEBDDF7007BA712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F6186E2BEBDDF8007BA712 /* Preview Assets.xcassets in Resources */,
+				F1F6186B2BEBDDF8007BA712 /* Assets.xcassets in Resources */,
+				F152264B2C0E141A00CEEE66 /* imena.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32669CA5D1880D113110C241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuslimApp/Pods-MuslimApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuslimApp/Pods-MuslimApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuslimApp/Pods-MuslimApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0A310FF31565479412E0E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuslimApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1F6185F2BEBDDF7007BA712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F152263A2C0DBC2900CEEE66 /* Hifz.swift in Sources */,
+				F1F618692BEBDDF7007BA712 /* ContentView.swift in Sources */,
+				F15393CF2C0A64D200252A0A /* UserSettings.swift in Sources */,
+				F15393BB2BECF30000252A0A /* Welcome.swift in Sources */,
+				F16F6A392C0BBF9200C56FF5 /* Sura.swift in Sources */,
+				F152263C2C0DF7EE00CEEE66 /* Zekat.swift in Sources */,
+				F1F618672BEBDDF7007BA712 /* MuslimAppApp.swift in Sources */,
+				F15393C72C08AD3500252A0A /* Message.swift in Sources */,
+				F13DC61D2C0D10EE00F76F2A /* ImageTitleRowCell.swift in Sources */,
+				F16F6A2B2C0BAE7E00C56FF5 /* HomeProUser.swift in Sources */,
+				F1710B432C0F31F70067F6BC /* DodajDovu.swift in Sources */,
+				F146E5062C0C933D008EFBB2 /* KuranPro.swift in Sources */,
+				F1710B412C0F20220067F6BC /* MojeDove.swift in Sources */,
+				F15393CB2C0A62AD00252A0A /* DefaultScreenProUser.swift in Sources */,
+				F1710B3F2C0EFFE80067F6BC /* Slika.swift in Sources */,
+				F15226382C0DBB7500CEEE66 /* PorukaView.swift in Sources */,
+				F15226342C0DBB3600CEEE66 /* DovaView.swift in Sources */,
+				F15226362C0DBB6400CEEE66 /* SiraView.swift in Sources */,
+				F16F6A322C0BB0C800C56FF5 /* Kuran.swift in Sources */,
+				F1710B452C0F37280067F6BC /* PrikaziMojeDove.swift in Sources */,
+				F1710B492C0F464E0067F6BC /* MojeSureUD.swift in Sources */,
+				F13DC6272C0D11DB00F76F2A /* Constants.swift in Sources */,
+				F15226512C0E1DC700CEEE66 /* Tesbih.swift in Sources */,
+				F16F6A372C0BB40200C56FF5 /* ListaSura.swift in Sources */,
+				F152264F2C0E189100CEEE66 /* AllahovaLijepaImena.swift in Sources */,
+				F15393CD2C0A62C600252A0A /* DefaultScreenUser.swift in Sources */,
+				F13DC61F2C0D112100F76F2A /* ImageLoaderView.swift in Sources */,
+				F1380AE22C0E563800B779CA /* ZajednickeDove.swift in Sources */,
+				F15393C12C078C4A00252A0A /* UrlHelper.swift in Sources */,
+				F15393BD2BECFD3300252A0A /* Login.swift in Sources */,
+				F15226402C0DF9EA00CEEE66 /* AllahovoIme.swift in Sources */,
+				F1380AE42C0E573400B779CA /* PrikazZajednickeDove.swift in Sources */,
+				F17E389B2C101EB6009F9E11 /* Tekstovi.swift in Sources */,
+				F1E2F2622C0CE61200DA3551 /* VaktijaComponent.swift in Sources */,
+				F16F6A342C0BB1A600C56FF5 /* MyProfile.swift in Sources */,
+				F15393C92C0A33CC00252A0A /* Korisnik.swift in Sources */,
+				F146E50A2C0C9715008EFBB2 /* PrikazSurePro.swift in Sources */,
+				F146E5082C0C9533008EFBB2 /* ChapterVerseBosArabic.swift in Sources */,
+				F16F6A2E2C0BAEA100C56FF5 /* HomeUser.swift in Sources */,
+				F15393BF2BECFD4900252A0A /* Register.swift in Sources */,
+				F15393C52C079A9A00252A0A /* LoginInfo.swift in Sources */,
+				F1380AE62C0E693A00B779CA /* Radio.swift in Sources */,
+				F1E2F2642C0CE9FA00DA3551 /* VaktijaData.swift in Sources */,
+				F16F6A3D2C0BC9C900C56FF5 /* PrikazSure.swift in Sources */,
+				F1710B3B2C0EDBF50067F6BC /* DoveUser.swift in Sources */,
+				F1710B3D2C0EDCE10067F6BC /* Dova.swift in Sources */,
+				F15226422C0DFC8800CEEE66 /* ListaAllahovihImena.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1F6186F2BEBDDF8007BA712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1F618702BEBDDF8007BA712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1F618722BEBDDF8007BA712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0124C0AB8288433F1594831E /* Pods-MuslimApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuslimApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muslimapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1F618732BEBDDF8007BA712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE746189E73CCC3E8AABBBFF /* Pods-MuslimApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuslimApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muslimapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1F6185E2BEBDDF7007BA712 /* Build configuration list for PBXProject "MuslimApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F6186F2BEBDDF8007BA712 /* Debug */,
+				F1F618702BEBDDF8007BA712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F618712BEBDDF8007BA712 /* Build configuration list for PBXNativeTarget "MuslimApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F618722BEBDDF8007BA712 /* Debug */,
+				F1F618732BEBDDF8007BA712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F13DC6202C0D118000F76F2A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F13DC6212C0D118000F76F2A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F13DC6202C0D118000F76F2A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F1F6185B2BEBDDF7007BA712 /* Project object */;
+}
